@@ -74,3 +74,4 @@ Thumbs.db
 .pytest_cache
 .vscode/
 venv/
+__pycache__/
