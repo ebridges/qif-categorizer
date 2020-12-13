@@ -1,3 +1,4 @@
+from os.path import basename
 from sys import argv
 from argparse import ArgumentParser
 from logging import basicConfig, DEBUG, INFO, info
@@ -6,6 +7,7 @@ from qif_categorizer.qif import (
     load_qif,
     load_categories,
     categorize_transactions,
+    uncategorized_txns,
 )
 
 
@@ -13,7 +15,8 @@ def run_categorization(qif_file, cat_file):
     qif = load_qif(qif_file)
     cats = load_categories(cat_file)
     categorize_transactions(qif, cats)
-    print(str(qif))
+    uncategorized = uncategorized_txns(qif)
+    print([str(t) for t in uncategorized])
 
 
 def configure_logging(verbose):
@@ -29,8 +32,8 @@ def configure_logging(verbose):
     )
 
 
-if __name__ == '__main__':
-    parser = ArgumentParser(prog=argv[0])
+def run():
+    parser = ArgumentParser(prog=basename(argv[0]))
     parser.add_argument('-v', '--verbose', default=False, action='store_true')
     parser.add_argument(
         '-q', '--qif-file', required=True, help='QIF File to categorize.'
@@ -46,9 +49,13 @@ if __name__ == '__main__':
     categories = args.categories
 
     info(
-        f'''{args.prog} called:
+        f'''{parser.prog} called:
         QIF File: {qif_file}
         Category file: {categories}'''
     )
 
     run_categorization(qif_file, categories)
+
+
+if __name__ == '__main__':
+    run()

@@ -1,6 +1,6 @@
 from json import load
 from qifparse.parser import QifParser
-from re import compile
+from re import compile, IGNORECASE
 from copy import deepcopy
 from logging import debug
 
@@ -28,7 +28,9 @@ def load_categories(cat_file):
             categories = normalize_categories(categories)
             for key in categories:
                 for idx in range(len(categories[key])):
-                    categories[key][idx] = compile(categories[key][idx])
+                    categories[key][idx] = compile(
+                        categories[key][idx], IGNORECASE
+                    )
             return categories
 
 
@@ -57,3 +59,11 @@ def category_for_payee(categories, payee):
         for regex in categories[category]:
             if regex.match(payee):
                 return category
+
+
+def uncategorized_txns(qif):
+    return [
+        txn
+        for txn in qif._accounts[0].get_transactions()[0]
+        if txn.category is None
+    ]
