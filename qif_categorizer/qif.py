@@ -2,9 +2,11 @@ from json import load
 from qifparse.parser import QifParser
 from re import compile
 from copy import deepcopy
+from logging import debug
 
 
 def load_qif(qif_file):
+    debug(f'load_qif({qif_file}) called.')
     if qif_file:
         with open(qif_file) as f:
             qif = QifParser.parse(f)
@@ -13,11 +15,13 @@ def load_qif(qif_file):
 
 
 def save_qif(qif, qif_file):
+    debug(f'save_qif({qif._accounts[0].name},{qif_file}) called.')
     with open(qif_file, 'w') as f:
         f.write(str(qif))
 
 
 def load_categories(cat_file):
+    debug(f'load_categories({cat_file}) called.')
     if cat_file:
         with open(cat_file) as f:
             categories = load(f)
@@ -39,6 +43,7 @@ def normalize_categories(c):
 
 
 def categorize_transactions(qif, categories):
+    debug(f'categorize_transactions({qif._accounts[0].name}) called.')
     txns = qif._accounts[0].get_transactions()[0]
     for txn in txns:
         payee = txn.payee
