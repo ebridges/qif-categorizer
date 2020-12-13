@@ -23,6 +23,6 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-line-length = 100
+line-length = 79
 skip-string-normalization = true
 target-version = [ "py37",]
