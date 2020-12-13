@@ -12,6 +12,11 @@ def load_qif(qif_file):
                 return qif
 
 
+def save_qif(qif, qif_file):
+    with open(qif_file, 'w') as f:
+        f.write(str(qif))
+
+
 def load_categories(cat_file):
     if cat_file:
         with open(cat_file) as f:
