@@ -9,8 +9,8 @@ license = "MIT"
 python = ">=3.6.1,<3.10"
 wheel = "^0.36.1"
 qifparse = {git = "git://github.com/ebridges/qifparse.git"}
-shiboken6 = {url = "http://download.qt.io/official_releases/QtForPython/shiboken6/shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl"}
-pyside6 = {url = "http://download.qt.io/official_releases/QtForPython/shiboken6/PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl"}
+kivy = {extras = ["base"], version = "^2.0.0"}
+kivymd = {git = "https://github.com/kivymd/KivyMD.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"

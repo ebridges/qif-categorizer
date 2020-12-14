@@ -3,6 +3,7 @@ from sys import argv
 from argparse import ArgumentParser
 from logging import basicConfig, DEBUG, INFO, info
 
+from qif_categorizer.categorizer_ui import CategorizerUIApp
 from qif_categorizer.qif import (
     load_qif,
     load_categories,
@@ -11,12 +12,21 @@ from qif_categorizer.qif import (
 )
 
 
+def run_manual_categorization(uncategorized, cats):
+    ui = CategorizerUIApp()
+    ui.transaction_list = uncategorized
+    ui.run()
+
+
 def run_categorization(qif_file, cat_file):
     qif = load_qif(qif_file)
     cats = load_categories(cat_file)
     categorize_transactions(qif, cats)
     uncategorized = uncategorized_txns(qif)
     print([str(t) for t in uncategorized])
+
+    if len(uncategorized) > 0:
+        run_manual_categorization(uncategorized, cats)
 
 
 def configure_logging(verbose):
