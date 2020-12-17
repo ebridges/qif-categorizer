@@ -1,4 +1,5 @@
 from unittest.mock import patch, mock_open
+from textwrap import dedent
 from datetime import datetime
 from re import compile
 from qif_categorizer.qif import (
@@ -11,9 +12,8 @@ from qif_categorizer.qif import (
 
 
 def qif_data(mock_account, mock_date, mock_payee, mock_amount):
-    return '\n'.join(
-        f'''
-        !Account
+    return dedent(
+        '''!Account
         N{mock_account}
         TCCard
         ^
@@ -22,8 +22,7 @@ def qif_data(mock_account, mock_date, mock_payee, mock_amount):
         D{mock_date}
         NN/A
         P{mock_payee}
-        T{mock_amount}
-        '''.split()
+        T{mock_amount}'''
     )
 
 
