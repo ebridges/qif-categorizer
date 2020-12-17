@@ -13,6 +13,25 @@ from kivy.properties import ListProperty  # noqa: E402
 class CategorizerUIApp(MDApp):
     transaction_list = ListProperty(None)
 
+    def lookup(self, instance, value):
+        self.root.suggestion_text = ''
+
+        val = value[value.rfind(' ') + 1 :]  # noqa: E203
+
+        if not val:
+            return
+        try:
+            word = [word for word in self.categories if word.startswith(val)][
+                0
+            ][
+                len(val) :  # noqa: E203
+            ]
+            if not word:
+                return
+            self.root.suggestion_text = word
+        except IndexError:
+            print('Index Error.')
+
     def build(self):
         screen = Screen()
         txns = self.transaction_list  # noqa: F841
