@@ -11,10 +11,17 @@ from qif_categorizer.qif import (
     uncategorized_txns,
 )
 
+from uuid import uuid4
+
 
 def run_manual_categorization(uncategorized, cats):
+    uc = dict()
+    for u in uncategorized:
+        uc[uuid4()] = u
+
     ui = CategorizerUIApp()
-    ui.transaction_list = uncategorized
+    ui.transactions = uc
+    ui.categories = cats
     ui.run()
 
 
