@@ -2,8 +2,9 @@ from os.path import basename
 from sys import argv
 from argparse import ArgumentParser
 from logging import basicConfig, DEBUG, INFO, info
+from wx import App
 
-from qif_categorizer.categorizer_ui import CategorizerUIApp
+from qif_categorizer.categorizer_ui import CategorizerUIFrame
 from qif_categorizer.qif import (
     load_qif,
     load_categories,
@@ -19,10 +20,10 @@ def run_manual_categorization(uncategorized, cats):
     for u in uncategorized:
         uc[uuid4()] = u
 
-    ui = CategorizerUIApp()
-    ui.transactions = uc
-    ui.categories = cats
-    ui.run()
+    app = App(0)
+    ui = CategorizerUIFrame(None, cats, uc)
+    ui.Show()
+    app.MainLoop()
 
 
 def run_categorization(qif_file, cat_file):

@@ -1,23 +1,34 @@
-import os
-
-os.environ['KIVY_NO_ARGS'] = 'T'
-
-from kivymd.app import MDApp  # noqa: E402
-from kivymd.uix.screen import Screen  # noqa: E402
-from kivymd.uix.datatables import MDDataTable  # noqa: E402
-
-from kivy.metrics import dp  # noqa: E402
-from kivy.properties import ListProperty  # noqa: E402
+import re
+import wx
+import wx.grid
 
 
-class CategorizerUIApp(MDApp):
-    transaction_list = ListProperty(None)
+class MyGrid(wx.grid.Grid):
+    def __init__(self, parent, categories, uncategorized):
+        wx.grid.Grid.__init__(self, parent)
+        self.categories = categories
+        self.uncategorized_transactions = uncategorized
+        self.Bind(wx.grid.EVT_GRID_CELL_CHANGED, self.on_cell_change)
+
+    def on_cell_change(self, evt):
+
+        row = evt.GetRow()
+        col = evt.GetCol()
+        val = self.GetCellValue(row, col)
+        regex = f'.*{val}.*'
+
+        for cat in self.categories:
+            c = cat.split(':')
+            subcat = c[len(c) - 1]
+            if re.match(regex, subcat, re.IGNORECASE):
+                self.SetCellValue(row, col, cat)
 
     def lookup(self, instance, value):
+        """
+        Autocomplete example for reference
+        """
         self.root.suggestion_text = ''
-
         val = value[value.rfind(' ') + 1 :]  # noqa: E203
-
         if not val:
             return
         try:
@@ -32,23 +43,36 @@ class CategorizerUIApp(MDApp):
         except IndexError:
             print('Index Error.')
 
-    def build(self):
-        screen = Screen()
-        txns = self.transaction_list  # noqa: F841
 
-        # self.cols = 3
+class CategorizerUIFrame(wx.Frame):
+    def __init__(self, parent, categories, uncategorized):
+        wx.Frame.__init__(self, parent)
+        self.categories = categories
+        self.uncategorized_transactions = uncategorized
 
-        table = MDDataTable(
-            column_data=[
-                ('Date', dp(30)),
-                ('Payee', dp(60)),
-                ('Amount', dp(30)),
-            ]
-        )
+        grid = MyGrid(self, categories, uncategorized)
+        grid.CreateGrid(len(self.uncategorized_transactions), 5)
 
-        screen.add_widget(table)
-        return screen
+        row = 0
+        for id, t in self.uncategorized_transactions.items():
+            grid.SetCellValue(row, 0, str(t.date.date()))
+            grid.SetReadOnly(row, 0)
+            grid.SetCellValue(row, 1, str(t.payee))
+            grid.SetReadOnly(row, 1)
+            grid.SetCellValue(row, 2, str(t.amount))
+            grid.SetCellAlignment(row, 2, wx.ALIGN_RIGHT, wx.ALIGN_CENTRE)
+            grid.SetReadOnly(row, 2)
+            grid.SetCellValue(row, 4, str(id))
+            grid.SetReadOnly(row, 4)
 
+            row = row + 1
 
-if __name__ == '__main__':
-    CategorizerUIApp().run()
+        cat_width = 0
+        for c in self.categories:
+            cat_width = max(cat_width, len(str(c)))
+
+        grid.AutoSizeColumn(0, setAsMin=True)
+        grid.AutoSizeColumn(1, setAsMin=True)
+        grid.AutoSizeColumn(2, setAsMin=True)
+        grid.SetColSize(3, cat_width * 5)
+        grid.AutoSizeColumn(4, setAsMin=True)
