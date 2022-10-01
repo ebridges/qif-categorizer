@@ -1,0 +1,1516 @@
+{
+    "Assets": [],
+    "Assets:Cash": [
+        {
+            "payee": "\"^ATM WITHDRAWAL\\s+\\d{1"
+        },
+        {
+            "payee": "^NON-CHASE ATM WITHDRAW"
+        },
+        "ATM WITHDRAWAL"
+    ],
+    "Assets:Checking Accounts": [],
+    "Assets:Checking Accounts:checking-chase-personal-1381": [
+        "ELECTRONIC PAYMENT-THANK YOU",
+        "Online Transfer from  CHK ...138",
+        "Online Transfer from CHK ...1381",
+        "Online Transfer to CHK ...1381 t",
+        "ELECTRONIC PAYMENT-THANK",
+        "AUTOMATIC PAYMENT - THANK",
+        "TRANSFER TO CHK XXXXXX1381"
+    ],
+    "Assets:Checking Accounts:checking-chase-personal-1605": [
+        "Online Transfer to  CHK ...1605",
+        "Online Transfer to CHK ...1605 t",
+        "Online Transfer to CHK ...1605"
+    ],
+    "Assets:Investment Accounts": [],
+    "Assets:Investment Accounts:investment-schwab-retirement-4144": [],
+    "Assets:Investment Accounts:investment-schwab-savings-0903": [
+        "SCHWAB BROKERAGE MONEYLINK",
+        "SCHWAB ADV ACH CONTRIB"
+    ],
+    "Assets:Savings Accounts:qapital-savings": [
+        "QAPITAL INC"
+    ],
+    "Expenses": [],
+    "Expenses:Business Services": [],
+    "Expenses:Business Services:Office Supplies": [
+        "UTRECHT ART",
+        "OFFICE 11211",
+        "PAPER & ACCESSORIES",
+        "YOUR NEIGHBORHOOD OFF",
+        "PAPER PRESENTATION",
+        "DARJA SKLEP"
+    ],
+    "Expenses:Business Services:Printing": [],
+    "Expenses:Business Services:Shipping": [
+        "USPS",
+        "THE UPS STORE",
+        "Poczta Polska",
+        "FedEx"
+    ],
+    "Expenses:Business Services:Software Services": [
+        "Evernote",
+        "FRESHBOOKS",
+        "DROPBOX",
+        "CODE 42 SOFTWARE INC",
+        "PINBOARD",
+        "HockeyApp",
+        "LINKEDIN",
+        "REGISTER.COM",
+        "GOOGLE \\*SERVICES",
+        "FILETHIS INC",
+        "TURBOTAX",
+        "KAPELI",
+        "Google Apps for Work",
+        "FastMail",
+        "Domains g.co",
+        "Google Cloud Storage",
+        "FLYINGMEATI",
+        "YouTube TV",
+        "GSUITE_roja.cc",
+        "PARKMYCLOUD",
+        "JetBrains",
+        {
+            "payee": "INFLIGHTWIFI"
+        },
+        "APPLE.COM/BILL",
+        "EBAY",
+        "AWS",
+        "GSUITE ROJA.CC"
+    ],
+    "Expenses:Children": [],
+    "Expenses:Children:529 Account": [],
+    "Expenses:Children:Allowance": [],
+    "Expenses:Children:Babysitter": [],
+    "Expenses:Children:Kids Activities": [
+        {
+            "payee": "^NEW\\s+YORK\\s+KIDS\\s+CLUB"
+        },
+        "BAKED IN BROOKLYN",
+        "SEA GLASS CAROUSEL",
+        "MS J S GYMNASTICS",
+        "TESTINGMOM",
+        "MC PRICELESS",
+        "CHESS NYC",
+        "UNITED SOCCER ACADEMY",
+        "THE PITCH",
+        "WILLIAMSBURG MUSIC STU",
+        "MS J'S GYMNASTICS",
+        "GIRL SCOUT COUNCIL",
+        "GEEK FOREST",
+        "THE AILEY SCHOOL",
+        "Gelsey Kirkland",
+        "MUSIC&ARTS.COM",
+        "Michaels",
+        "GREAT WOLF POCONOS",
+        "BROOKLYN NETS"
+    ],
+    "Expenses:Children:Toys": [
+        {
+            "payee": "TOYS\\s+R\\s+US"
+        },
+        {
+            "payee": "GREENPOINTS\\s+TOY\\s+CENTER"
+        },
+        {
+            "payee": "\\s+AREA\\s+KIDS\\s+"
+        },
+        {
+            "payee": "^MINI\\s+JAKE\\s+"
+        },
+        "PARTY CITY",
+        "AREA KICKS & CUTS",
+        "POPFUZZ",
+        "BUILDABEAR",
+        "KIDDING AROUND",
+        "GEOMETRY KIDS",
+        "CHILDS PLAY PORTLAND",
+        "CLAIRE'S",
+        "TWO KIDS AND A DOG Brooklyn NY"
+    ],
+    "Expenses:Education": [
+        "NY STATE BAR APPLIC"
+    ],
+    "Expenses:Education:Books & Supplies": [
+        "MULEE SCHOOL SUPPLY",
+        "MICHAELS STORES",
+        "Guitar Center",
+        "MUSIC & ARTS CENTER",
+        "SCHOLASTIC BOOK FAIRS"
+    ],
+    "Expenses:Education:Conferences": [
+        "DROIDCON",
+        "Google IO"
+    ],
+    "Expenses:Education:Tuition": [
+        "TADS",
+        "MPRE",
+        "EGGHEAD.IO TRAINING",
+        "The Cooper Union"
+    ],
+    "Expenses:Education:Tutoring": [
+        "Intelligentsia Tutoring"
+    ],
+    "Expenses:Entertainment": [],
+    "Expenses:Entertainment:Amusement": [
+        "WAVEHILL INC",
+        "WAVE HILL",
+        "VICTORIAN GARDENS",
+        "SYLVAN LAKE BEACH PARK",
+        "ISEATS.NET",
+        "MET OPERA",
+        "PHOTOBOOTH VEND",
+        "DENO'S WONDER WHEEL",
+        "PRC PARKS PERMIT",
+        "FIRE ISLAND LIGHTHOUSE",
+        "SHAWNEE MOUNTAIN SKI",
+        "DINGMANS CAMPGROUND",
+        "FERNWOOD VILLAS",
+        "SHAWNEE GENERAL",
+        "MUZEUM NARODOWE",
+        "PLAYBILLSTORE",
+        "SLOWACKI",
+        "KICK AXE THROWING LLC",
+        "Polonia WAX MUSEUM Krakow",
+        "AUSABLE RIVER TWO FLY"
+    ],
+    "Expenses:Entertainment:Arts": [
+        "STORM KING ART CENTER",
+        "N-Y HISTORICAL SOC",
+        "BKCM.ORG",
+        "TKTS",
+        "TICKETFLY EVENTS",
+        "JAZZTOPAD FESTIVAL",
+        "MOMA ADMISSIONS",
+        "NEW YORK CITY BLLT",
+        "JAPAN SOCIETY"
+    ],
+    "Expenses:Entertainment:Books & Periodicals": [
+        {
+            "payee": "SPOONBILL\\s+&\\s+SUGARTOWN"
+        },
+        "POLONIA BOOKSTORE",
+        "STOMPING GROUND",
+        "THE NEW YORKER",
+        "DOVER PUBLICATIONS",
+        "MOSAIC BY MIXBOOK",
+        "HUDSONNEWS",
+        "Scholastic Reading Clu",
+        "BOOK PASSAGE",
+        "WORD BOOKSTORE",
+        "NEW YORK TIMES DIGITAL",
+        "MCNALLY",
+        "Audible",
+        "EMPIK",
+        "POWERHOUSE ARENA",
+        "Kindle Svcs",
+        "NYTIMES",
+        "WSJ/BARRON'S"
+    ],
+    "Expenses:Entertainment:Mobile Apps": [
+        {
+            "payee": "APPLE\\s+ONLINE\\s+STORE"
+        },
+        "ITUNES",
+        "Google Play"
+    ],
+    "Expenses:Entertainment:Movies": [
+        {
+            "payee": "AMAZON\\s+VIDEO\\s+"
+        },
+        {
+            "payee": "Amazon\\s+Video\\s+"
+        },
+        {
+            "payee": "WILLIAMSBURG\\s+CINEMA"
+        },
+        {
+            "payee": "Amazon\\s+Video\\s+"
+        },
+        {
+            "payee": "AMAZON\\s+VIDEO\\s+"
+        },
+        {
+            "payee": "^NETFLIX\\.COM"
+        },
+        "NITEHAWK CINEMA",
+        "MUBI",
+        "BAM ROSE CINEMA",
+        "Netflix",
+        "FILM FORUM",
+        "Fandango",
+        "Prime Video",
+        "CINEMA CITY ZAKOPIANKA",
+        "REGAL ESSEX CROSSING",
+        "AMZN Digital"
+    ],
+    "Expenses:Entertainment:Music": [
+        {
+            "payee": "^Spotify"
+        },
+        {
+            "payee": "SPOTIFY"
+        }
+    ],
+    "Expenses:Fees & Charges": [],
+    "Expenses:Fees & Charges:ATM Fee": [
+        {
+            "payee": "^NON-CHASE ATM FEE-WITH"
+        },
+        "NON-CHASE ATM FEE"
+    ],
+    "Expenses:Fees & Charges:Bank Fee": [
+        "MONTHLY SERVICE FEE",
+        "FOREIGN TRANSACTION FEE",
+        "MEMBERSHIP FEE",
+        "INSUFFICIENT FUNDS FEE",
+        "FOREIGN EXCHANGE RATE ADJUSTMENT FEE",
+        "EXTENDED OVERDRAFT FEE",
+        "DOMESTIC INCOMING WIRE FEE"
+    ],
+    "Expenses:Fees & Charges:Finance Charge": [
+        "INTEREST CHARGED TO STANDAR",
+        "INTEREST CHARGED TO STANDARD PURCH"
+    ],
+    "Expenses:Fees & Charges:Late Fee": [
+        "LATE FEE"
+    ],
+    "Expenses:Fees & Charges:Membership Fees": [
+        "AmazonPrime Membership"
+    ],
+    "Expenses:Fees & Charges:Service Fee": [
+        "ONLINE DOMESTIC WIRE FEE"
+    ],
+    "Expenses:Financial": [],
+    "Expenses:Financial:Accounting Services": [],
+    "Expenses:Financial:Life Insurance": [
+        {
+            "payee": "^MASSACHUSETTS\\s+MU\\s+LCM\\s+GVUL"
+        },
+        "MASSACHUSETTS MU EB GVUL"
+    ],
+    "Expenses:Food & Dining": [],
+    "Expenses:Food & Dining:Alcohol & Bars": [
+        {
+            "payee": "^PIER\\s+WINES\\s+"
+        },
+        {
+            "payee": "ASTOR\\s+WINE\\s+"
+        },
+        {
+            "payee": "UVA\\s+"
+        },
+        {
+            "payee": "RED\\s+WHITE\\s+&\\s+GREEN"
+        },
+        "FIRST WINE AND SPIRITS BROOKLYN",
+        "BROOKLYN OENOLOGY",
+        "THE BOTTLE SHOP",
+        "THE PLAZA HOTEL F&B",
+        "CLIPPER CITY BAR",
+        "KETTLE OF FISH",
+        "TOAD HALL",
+        "THE WILLIAMSBURG HOTEL BROOKLYN",
+        "RED WHITE AND GREEN",
+        "Oregon Wines On Broadway",
+        "Pier Wines",
+        "Astor Wines & Spirits",
+        "LA VID WINE",
+        "NEW Z&J WINE LIQUOR",
+        "SHERRY-LEHMANN",
+        "THE SMITH LINCOLN CEN",
+        "SPIRITS OF CARMINE INC",
+        "The Wine Hut",
+        "Minetta Taver",
+        "BEDFORD WINES AND SPIR",
+        "RWG WINE & SPIRITS",
+        "BOTTLE SHOPPE",
+        "T & N WINE & LIQUOR",
+        "THE HIVE",
+        "TURKS AND FROGS",
+        "RWGWINES",
+        "THE WINE & SPIRIT SHO",
+        "BOQUET LIQUOR SHOP",
+        "Terry Robards Wine",
+        "TERRY ROBARDS WINES"
+    ],
+    "Expenses:Food & Dining:Coffee Shops": [
+        {
+            "payee": "^DEPANNEUR\\s+"
+        },
+        {
+            "payee": "181\\s+ESPRESSO\\s+"
+        },
+        {
+            "payee": "ESPRESSO\\s+AT\\s+181"
+        },
+        {
+            "payee": "BIBA\\s+BROOKLYN"
+        },
+        {
+            "payee": "RESTRANT\\s+181\\s+ESPRES"
+        },
+        {
+            "payee": "CLUIZEL\\s+ BEDFORD"
+        },
+        {
+            "payee": "BAKERI"
+        },
+        {
+            "payee": "DEVOCION"
+        },
+        {
+            "payee": "ODDFELLOWS\\s+ICE"
+        },
+        {
+            "payee": "PUDGE\\s+KNUCK"
+        },
+        {
+            "payee": "SWEETHAUS\\s+"
+        },
+        {
+            "payee": "SUGAR\\s+SWEET\\s+SUNSHINE"
+        },
+        {
+            "payee": "SWEETLEAF\\s+"
+        },
+        {
+            "payee": "Irving\\s+Farm\\s+Coffee"
+        },
+        {
+            "payee": "^MARLOW\\s+AND\\s+SONS"
+        },
+        {
+            "payee": "^16\\s+HANDLES"
+        },
+        "MARTHAS",
+        "CLUIZEL BEDFORD",
+        "WOOPS",
+        "LINDT CHOCOLATE",
+        "EPICERIE BOULUD",
+        "NEW YORK MUFFINS BROOKLYN",
+        "GROM - IL GELATO",
+        "TOBY'S ESTATE COFFE",
+        "VAN LEEUWEN",
+        "DUNKIN",
+        "BIRDBATH BAKERY",
+        "BLUESTONE LANE",
+        "BAGELSMITH",
+        "MARGO PATISSERIE",
+        "AVI JUILLIARD",
+        "BAR BOULUD",
+        "MAGNOLIA BAKERY",
+        "EUROPAN CAFE",
+        "CACAO MARKET",
+        "HANANA YOGURT",
+        "MOO MOO'S CREAMERY",
+        "N O R T H E R L Y",
+        "MARCHE MADISON",
+        "BILLYS BAKERY",
+        "POPBAR",
+        "GIGI CAFE",
+        "BLACK BRICK",
+        "BOULE & CHERRIE",
+        "SARABETH'S BAKERY",
+        "Butler & Co",
+        "BLOSSOM ICE CREAM",
+        "THE BAGEL STORE",
+        "ZUCKERS BAGELS",
+        "BEDFORD CHEESE SHOP",
+        "DYLAN'S CANDY BAR",
+        "JUICE GENERATION",
+        "MERRIWEATHER",
+        "THE BEACON CREAM",
+        "SUGAR FACTORY",
+        "DU'S DONUTS",
+        "Peet's Coffee",
+        "Stumptown Coffee",
+        "GROM - IL GELAT",
+        "CONEY CONES BROOKLYN",
+        "GREAT PERFORMANCES Brooklyn NY",
+        "FABIANES CAFE",
+        "PINKBERRY",
+        "ALMONDINE BAKERY Brooklyn",
+        "ONE GIRL COOKIES",
+        "LA COLOMBE",
+        "BROOKLYN GOURMET DELI",
+        "MARLOW & SONS",
+        "AMYS BREAD",
+        "BLUE BOTTLE COFFEE",
+        "CHOCONYZ",
+        "CIBO EXPRESS",
+        "BREADS BAKERY",
+        "BIG GAY ICE CREAM",
+        "LA MAISON DU CHOCOLAT",
+        "UPSTATE STOCK FLAGS Brooklyn",
+        "OVENLY GREENPOINT",
+        "EMPIRE CAKE",
+        "OSLO COFFEE ROASTERS",
+        "OVENLY",
+        "Starbucks",
+        "U-WAY",
+        "16 HANDLES",
+        "SIUH CAFETERIA",
+        "GELATERIA GENTILE",
+        "CARVEL",
+        "BAGEL ON THE SQUARE",
+        "MAISON KAYSER",
+        "NORTHERLY COFFEE",
+        "Au Bon Pain",
+        "LLAMITA",
+        "TAIYAKI NYC",
+        "CAFEBELLE",
+        "FIKA NEW YORK",
+        "FAT WITCH BAKERY",
+        "PASSATEMPO CAFE",
+        "JACQUES TORRES",
+        "DEPANNEUR_1",
+        "BROOKLYN ROASTING C Brooklyn NY",
+        "New Stand NYCF",
+        "DAVEY'S ICE CREAM",
+        "THE NEW STAND",
+        "LA NEWYORKINA",
+        "DOUGH NEW YORK CITY",
+        "SWEETHAUS",
+        "FREEHOLD",
+        "JOE COFFEE",
+        "Pret A Manger",
+        "BROOKLYN ROASTING COM",
+        {
+            "payee": "MATTO"
+        },
+        "GRACIE BAKED",
+        "MARTHA S COUNTRY BAKERY",
+        "MEKELBURG'S",
+        {
+            "payee": "BLACK\\ CAT\\ LES"
+        },
+        "THINK COFFEE",
+        "FORTUNATO BROS BAKERY",
+        "AUNTIE ANNES",
+        "KAWIARNIA TRIBECA",
+        "BUTLER Brooklyn NY",
+        "BAGEL POINT Brooklyn NY",
+        "DOUGHNUT PLANT",
+        "BRIGHT SIDE",
+        "DTUT",
+        "HUNGRY GHOST BEDFORD",
+        "LION'S MILK",
+        "BIRCH COFFEE",
+        "BLACK STAR BAKERY",
+        "COPPER MUG COFFEE",
+        "ADIRONDACK CHOCOLATES WILMINGTON",
+        "ADIRONDACK CHOCOLATES",
+        "BEN & JERRY'S",
+        "LAJKONIK PIEKARNIA",
+        "PIJALNIE CZEKOLADY"
+    ],
+    "Expenses:Food & Dining:Groceries": [
+        {
+            "payee": "^BROOKLYN\\s+HARVEST\\s+MA"
+        },
+        {
+            "payee": "^BROOKLYN\\s+HARVES\\s+"
+        },
+        {
+            "payee": "^FAIRWAY\\s+"
+        },
+        {
+            "payee": "^FOODTOWN\\s+"
+        },
+        {
+            "payee": "^INSTACART\\s+"
+        },
+        {
+            "payee": "^KHIM'S MILLENNIUM MARK"
+        },
+        {
+            "payee": "^KHIMS MILLENNIUM MARK"
+        },
+        {
+            "payee": "^MARLOW AND DAUGHTERS"
+        },
+        {
+            "payee": "^NORTHSIDE BAKERY"
+        },
+        {
+            "payee": "^URBAN\\s+MARKET\\s+"
+        },
+        {
+            "payee": "^W\\s+NASSAU\\s+MEAT\\s+MARKET"
+        },
+        {
+            "payee": "^WHOLEFDS\\s+"
+        },
+        {
+            "payee": "FRESH\\s+DIRECT\\s+"
+        },
+        {
+            "payee": "GARDEN OF EDEN"
+        },
+        {
+            "payee": "^EATALY"
+        },
+        {
+            "payee": "BROOKLYN\\s+KITCH"
+        },
+        {
+            "payee": "TRADER\\s+JOE"
+        },
+        "LUFT",
+        "KRAJAN",
+        "The Lobster Place",
+        "NEW POLAND FOOD MARKET",
+        "CITY ACRES MARKET",
+        "KHIM'S ORGANIC",
+        "ORCHARDS OF CONKLIN",
+        "NASSAU MEAT MARKET",
+        "PASTOSA RAVIOLI",
+        "20 NORTH 5TH STREET DEL",
+        "THE MEAT HOOK",
+        "KEY FOODS",
+        "RACHEL'S GARDEN",
+        "RODRIGUEZ GROCERY",
+        "7-ELEVEN",
+        "ASSOCIATED",
+        "SUNAC NATURAL",
+        "LUFTCOFFEE",
+        "GOURMET GARAGE",
+        "METRO ORGANICS",
+        "SPICES AND TEASE",
+        "MURRAYS CHEESE",
+        "DOLLAR UP BROOKLYN",
+        "NORTH SIDE DELI",
+        "Whole Foods",
+        "INSTACART",
+        "CARREFOUR HIPERMARKET",
+        "MURRAY'S CHEES",
+        "PALENVILLE MART",
+        "STEWARTS SHOP",
+        "TWILIGHT HIGH PEAK HAINES FALLS",
+        "BROOKLYN FARE",
+        "EKO DELIKATESY KRAKOW",
+        "SKLEP MUZEALNY",
+        "PARTNER SKLEP MOGILANY",
+        "PLUS SKLEP MOGILANY",
+        "MOM AND POPS ORGANICS",
+        "NEW GROCERY DELI BROOKLYN NY",
+        "FRESH DIRECT",
+        "MURRAY'S CHEESE",
+        "ORCHARDS OF CONCKL",
+        "Costco",
+        "K&J DELI",
+        "C TOWN SUPERMARKET",
+        "BUON ITALIA",
+        "SCHALLER & WEBER",
+        "MIDORIYA",
+        "FOODTOWN",
+        "BROOKLYN HARVEST",
+        "CITY ACRES MARKE",
+        "FRANKELS DELICATESSEN",
+        "DELIKATESY CENTRUM",
+        "20 NORTH 5TH STREET DELI",
+        {
+            "payee": "PrimeNowTips"
+        },
+        "PrimeNowMktp",
+        "ROCKY DELI GROCERY",
+        "METRO ORGANIC FOOD BROOKLYN NY",
+        "ADAM DELI & DELICATESSE",
+        "AMZNGrocery",
+        "METRO ORGANIC FOOD",
+        "Wegmans",
+        "LITTLE SUPER MARKET",
+        "OLD POLAND BAKERY",
+        "AUCHAN POLSKA",
+        "ADAM DELI",
+        "SCHALLER & WEBE",
+        "NORTH POLE CAMPGROUND WILMINGTON",
+        "Family Dollar",
+        "RIVERMEDE FARM KEENE VALLEY",
+        "Hannaford",
+        "MACE CHASM FARM",
+        "RIVERMEDE FARM",
+        "SUGAR HOUSE CREAMERY",
+        "SUGARLOAF FARM",
+        "WHITE STONE FARM",
+        "EAST BRANCH ORGANICS",
+        "Aldi",
+        "NORTH POLE CAMPGROUND",
+        "DAKIN FARM",
+        "CROWN POINT BREAD",
+        "JUNIPER HILL FARM",
+        "Price Chopper",
+        "WILD WORK FARM",
+        "Tops Friendly Markets",
+        "CARREFOUR EXPRESS",
+        "TESCO",
+        "BIEDRONKA",
+        "Key Food Stores"
+    ],
+    "Expenses:Food & Dining:Restaurants": [
+        {
+            "payee": "^DOORDASH"
+        },
+        {
+            "payee": "^SWEETGREEN\\s+WIL"
+        },
+        {
+            "payee": "^L\\s+ISOLA\\s+RESTAURANT\\s+"
+        },
+        {
+            "payee": "^M\\s+SHANGHAI"
+        },
+        {
+            "payee": "^QI\\s+"
+        },
+        {
+            "payee": "RED\\s+BOWL\\s+"
+        },
+        {
+            "payee": "SHAKE\\s+SHACK\\s+"
+        },
+        {
+            "payee": "SMILE\\s+TO\\s+GO"
+        },
+        {
+            "payee": "CITY\\s+BAKERY"
+        },
+        {
+            "payee": "MEATBALL\\s+SHOP"
+        },
+        {
+            "payee": "PRET\\s+A\\s+MANGER\\s+"
+        },
+        {
+            "payee": "DOS\\s+TOROS"
+        },
+        {
+            "payee": "^LE\\s+PAIN\\s+QUOTIDIEN"
+        },
+        "RADEGAST HALL",
+        "FILAGA",
+        "CHELSEA CREAMLINE",
+        "VIEN",
+        "JOES PIZZA",
+        "AVENITA DINER",
+        "MANGIA FRESCO",
+        "PS BURGERS",
+        "CHICK-FIL-A",
+        "BEST PIZZA BROOKLYN",
+        "CENTRAL PARK BOATHOUSE",
+        "OAXACA GRAND",
+        "FABBRICA",
+        "CHAI - BROOKLYN",
+        "TIKKA INDIANGRILL",
+        "PETER'S SINCE 1969",
+        "CAFE MOGADOR",
+        "OASIS IN WILLIAMSBURG",
+        "PRET MANGER",
+        "COLANDREA NEW CORNER",
+        "BABU JI",
+        "JOE & PATS PIZZA",
+        "MARRIOTT",
+        "KARCZMA POLISH RESTAUR",
+        "BRICKHOUSE PIZZA",
+        "REYNARD RESTAURANT",
+        "PULQUERIA",
+        "PIER A",
+        "SEAMLSSTIKKAINDIANGRI",
+        "SEAMLSSGALLIRESTAURAN",
+        "HAMPTON CHUTNEY",
+        "SEAMLSSMSHANGHAI",
+        "CAFES AT MOMA",
+        "BURGER JOINT",
+        "TRATTORIA SPAGHETTO",
+        "FIVE GUYS",
+        "GALLI RESTAURANT",
+        "RYE RESTAURANT",
+        "PATRIZIAS PIZZA & PAST",
+        "WILLIAMSBURG THAI CUIS",
+        "PASTA WIZ",
+        "GOTAN WILLIAMSBURG",
+        "JEFFREY'S",
+        "N'EAT",
+        "SULLIVAN RESTAURANT",
+        "GLAZE TERIYAKI",
+        "UMAMI BURGER",
+        "SEAMLSSCHINESECLUB",
+        "KARCZMA POLISH RESTAURA",
+        "CORNELIA STREET CAFE",
+        "LA ESQUINA",
+        "SEAMLSSQITHAIGRILL",
+        "GELSO & GRAND",
+        "L'ISOLA",
+        "LA COCINA",
+        "EL FAROLITO",
+        "FOUR BARREL",
+        "PRU CENTER LEGNDS CLUBS",
+        "SEAMLSSBIRDSOFAFEATHE",
+        "SIZZLE PIE",
+        "CRIF DOGS",
+        "MCDONALD'S",
+        "Seamless",
+        "WEST SIDE RESTAURANT",
+        "CRAZY OYSTER",
+        "NUNZIOS PIZZERIA",
+        "FAICCO SAUSAGE SHOP",
+        "LA GOULETTE RESTAURANT",
+        "FRANCESCOS PIZZERIA",
+        "Shake Shack",
+        "KILLER BURGER",
+        "Mi Mero Mole",
+        "Pazzo Ristorante",
+        "Qi",
+        "GOOD IRON INC",
+        "PAUL`S DAUGHTER BROOKLYN NY",
+        "Emily New Yorks",
+        "THE RABBIT HOLE BROOKLYN",
+        "THE CHINESE CLUB BROOKLYN",
+        "La Loteria",
+        "FORNINO WILLIAMSBURG",
+        "PIZZA MIA PASTA",
+        "BLUE STATEN ISLAND",
+        "VANESSA'S DUMPLING HOUS",
+        "Buffalo Wild Wings",
+        "LITTLE ITALY -BROADWAY",
+        "Grand Ferry Brooklyn",
+        "Rosa Mexicano",
+        "EN JAPANESE BRASSIRE",
+        "Villa Mosconi Restaurant",
+        "DZIUPLA BROOKLYN",
+        "SRIPRAPHAI BROOKLYN",
+        "GOOD STOCK CARMINE",
+        "LEXINGTON CANDY SHOP",
+        "Pizza Hut",
+        "La Nonna Ristorante",
+        "QUINOA KITCHEN Brooklyn NY",
+        "BIRDS OF A FEATHER BROOKLYN",
+        "SRIPRAPHAI",
+        "FORCELLA",
+        "CHAMPION PIZZA",
+        "FORAGERS - BROOKLYN",
+        "The Commodore",
+        "PIES N THIGHS",
+        "White Castle",
+        "Taco Bell",
+        "FORTUNE COOKIE",
+        "THE HALAL SPOT",
+        "EGG RESTAURANT",
+        "BORDER BURRITO",
+        "SHELTER PIZZA",
+        "CHINESECLUB",
+        "BACI & ABBRACI",
+        "Dig Inn Seasonal Market",
+        "FETTE SAU BROOKLYN",
+        "PASTICCERIA ROCCO",
+        "Chez Ma Tante",
+        "Dig Inn Seasonal Marke",
+        "DOSTOROSNY",
+        "LE GAMIN",
+        "Best Pizza",
+        "OTTOSTACOS_3",
+        "PEPE ROSSO TOGO",
+        "PAULIE GEE'S",
+        "CHUKO N. 3RD",
+        "SEAMLSSSRIPRAPHAIFORM",
+        "KRISPY KRUST PIZZA",
+        "DIG INN",
+        "SWEETGREEN5076",
+        "DZIUPLA",
+        "PETITE ABEILLE",
+        "XIAN FAMOUS FOODS",
+        "LA NONNA",
+        "SUNDAY IN BROOKLYN",
+        "Chipotle Mexican Grill",
+        "WESTVILLE - DUMBO",
+        "SWEET CHICK",
+        "OASIS BROOKLYN",
+        "Panda Express",
+        "RESTAURACJA SZARA",
+        "KHAO SARN THAI",
+        "COCU",
+        "DI FARA",
+        {
+            "payee": "\\*SWEETGREEN"
+        },
+        "IKINARI",
+        {
+            "payee": "\\*DIGINN"
+        },
+        "KROLEWSKIE JADLO",
+        "MINAR",
+        "POLKA DOT BROOKLYN",
+        {
+            "payee": "KIMBAP\\ LAB"
+        },
+        "GERTIE BROOKLYN",
+        "TACOCINA BROOKLYN",
+        "The Green Kitchen",
+        "IHOP",
+        "ZOLA",
+        "TACO MAHAL",
+        "CODINO",
+        "AURORA RISTORANTE SOHO",
+        "LUZZOS",
+        "GLAZE WILLIAMSBURG",
+        "THE WILLIAMSBURG HOTEL",
+        "MIGHTY QUINN",
+        "CHIVE BLOSSOM",
+        "MIDICI NEAPOLITAN PIZZA",
+        "BLUE MOON PIZZA",
+        "CONGRESS HALL DINING",
+        "PRET-A-MANGER",
+        "CAFE CLOVER",
+        "TABOONETTE - CARMINE",
+        "BIRDS OF A FEATHER",
+        "SWEET WATER",
+        "RESTAURACJA BOCCANERA",
+        "MARINACAFE",
+        "BREAD & BUTTER",
+        "TIKKA INDIAN GRILL",
+        "WAVERLY RESTAURANT",
+        "JOSEPH LEONARD",
+        {
+            "payee": "SWEETGREEN"
+        },
+        "COTENNA",
+        "PIEROZEK BROOKLYN NY",
+        "BABA S PIEROGIES - BROOKLYN NY",
+        "ACHILLES HEEL",
+        "KHAO SARN",
+        "NORA THAI",
+        "CITROEN BROOKLYN NY",
+        "THE WILLIAM VALE BROOKLYN",
+        "TUTTI SANTI KRAKOW",
+        "ROY ROGERS",
+        "THE WILLIAM VALE",
+        "LOKAL MEDITERRANEAN",
+        "A&W FAMILY RESTAURANT",
+        "FRATELLI PIZZA RESTAURA",
+        "FRATELLI PIZZA RESTAURANT",
+        "BLACKBEARRESTAURANT",
+        "NOON MARK DINER",
+        "LEVAIN BAKERY",
+        "SCHALLER'S STUBE",
+        {
+            "payee": "TRYCAVIAR\\.COM"
+        }
+    ],
+    "Expenses:Gifts": [],
+    "Expenses:Gifts:Charity": [
+        {
+            "payee": "PS\\s*84\\s+PTA"
+        },
+        "PS84K",
+        "JDRF - WALK",
+        "PTA OF PS 84",
+        "DONORSCHOOSE",
+        "GoFundMe",
+        "GoFndMe"
+    ],
+    "Expenses:Gifts:Gift": [
+        {
+            "payee": "SAM\\s+GREGORIOS"
+        },
+        "BODHI",
+        "MEME ANTENNA BROOKLYN NY",
+        "RED PEARL BROOKLYN",
+        "PAPER CULTURE",
+        "BLUE WATER FLOWERS",
+        "FTD.COM",
+        "RED PEARL",
+        "CHANEL.COM",
+        "TIFFANY & CO",
+        "NORBU INC",
+        "TLF GREENPOINT FLORAL",
+        "CYCLICAL INDUSTRY",
+        "APOTHEKE",
+        "HANATO Brooklyn NY",
+        "ANGELICA FLOWERS NEW YORK NY",
+        "PAPERLESS POST",
+        "ANGELICA FLOWERS",
+        "PINK OLIVE",
+        "SAM T. GRERGORIO'S"
+    ],
+    "Expenses:Gifts:Holiday Gratuity": [],
+    "Expenses:Home": [],
+    "Expenses:Home:Condo Fee": [
+        {
+            "payee": "1\\s+NORTHSIDE\\s+PIERS\\s+CONDO"
+        },
+        "Online Payment [0-9]{10} To THE"
+    ],
+    "Expenses:Home:Furnishings": [
+        {
+            "payee": "^IKEA\\s+"
+        },
+        {
+            "payee": "^CRATE\\s+&\\s+BARREL\\s+"
+        },
+        {
+            "payee": "SPROUT\\s+HOME"
+        },
+        {
+            "payee": "HOME\\s*DEPOT"
+        },
+        {
+            "payee": "^JENNIFER\\s+CONV"
+        },
+        "TARGET",
+        "Etsy",
+        "LEVEL FRAMES",
+        "BEDBATH&BEYOND",
+        "FISHS EDDY",
+        "WHISK BROOKLYN",
+        "WEST ELM",
+        "PICTURE FRAME PRODU",
+        "COMPANY STORE",
+        "HEATH CERAMICS",
+        "BERLYN65",
+        "IKEA",
+        "LEIFSHOP BROOKLYN NY",
+        "LEIFSHOP"
+    ],
+    "Expenses:Home:Home Improvement": [
+        "CHELSEA GARDEN CENTER",
+        "PURE LION LIGHTING",
+        "CREST TRUE VALUE",
+        "FILTERS FAST",
+        "DIY UPHOLSTERY",
+        "AURORA HARDWARE BROOKLYN",
+        "Sanitary Plumbing",
+        "GARBER HARDWARE",
+        "KLENOSKY PAINT",
+        "SKYLINE WINDOWS, LLC"
+    ],
+    "Expenses:Home:Home Insurance": [
+        {
+            "payee": "CHUBB\\s+INSURANCE"
+        },
+        "Online Payment [0-9]{10} To CHU"
+    ],
+    "Expenses:Home:Home Services": [
+        "DYNAMIC APPLIANCE",
+        {
+            "payee": "Anjelica\\ \\(cleaning\\ lady\\)"
+        }
+    ],
+    "Expenses:Home:Home Supplies": [
+        "CONTAINERSTORENEWYORK",
+        "Duane Reade",
+        "B&B DISCOUNT STORE INC",
+        "MUJI WILLIAMSBURG",
+        "BED BATH BEYOND",
+        "Bed Bath & Beyond",
+        "AUBUCHON"
+    ],
+    "Expenses:Home:Laundry": [
+        "CHARTLON CLEANERS"
+    ],
+    "Expenses:Home:Storage Rental": [
+        "STORAGE POST"
+    ],
+    "Expenses:Personal Care": [],
+    "Expenses:Personal Care:Dentist": [
+        {
+            "payee": "EDWARD\\s+FOX\\s+DDS"
+        },
+        {
+            "payee": "^METROPOLITAN\\s+DENTAL"
+        },
+        "Online Payment [0-9]{10} To Law",
+        "LAWRENCE KESSLER",
+        "KATE MCGILLOWAY",
+        "MANHATTAN FAMILY ORTHO",
+        "VILLAGE DENTAL MEDICINE",
+        "GRINBAUM ORTHODONTICS"
+    ],
+    "Expenses:Personal Care:Doctor": [
+        {
+            "payee": "Hanjis"
+        },
+        {
+            "payee": "HANJIS"
+        },
+        {
+            "payee": "MARK\\s+DRAKOS"
+        },
+        {
+            "payee": "York-Presbyterian"
+        },
+        {
+            "payee": "NYEEI\\s+Dept\\s+of\\s+Otolaryngology"
+        },
+        {
+            "payee": "PAULO\\s+PACHECO"
+        },
+        {
+            "payee": "TRIBECA\\s+PEDIATRICS"
+        },
+        {
+            "payee": "WEILL\\s+CORNELL"
+        },
+        {
+            "payee": "^MOUNT\\s+SINAI\\s+BETH"
+        },
+        {
+            "payee": "^NEW\\s+YORK\\s+EYE\\s+AND\\s+EAR"
+        },
+        "PARK 55 MEDICAL ASSOCIA",
+        "NORTHWELL GOHEALTH",
+        "NEW YORK PAIN CARE",
+        "LiveHealth Online"
+    ],
+    "Expenses:Personal Care:Eyecare": [
+        {
+            "payee": "\\s+MOSCOT\\s+"
+        },
+        "MOSCOT",
+        "ZENNI OPTICAL"
+    ],
+    "Expenses:Personal Care:Gym": [],
+    "Expenses:Personal Care:Hair": [
+        {
+            "payee": "PERSONS\\s+OF\\s+INTEREST"
+        },
+        "Salon Dzieciecy Miki",
+        "COCORO",
+        "BEAUTY DESIGN OF NY",
+        "NEIGHBORHOODCUT",
+        "HAAR AND CO",
+        "DRYBAR WILLIAMSBURG",
+        "FELLOW BARBER",
+        "SHIZEN BROOKLYN"
+    ],
+    "Expenses:Personal Care:Health Insurance": [],
+    "Expenses:Personal Care:Pharmacy": [
+        {
+            "payee": "\"^Duane Reade\\s+\\d{1"
+        },
+        {
+            "payee": "^DUANE READE\\s+"
+        },
+        {
+            "payee": "^CVS"
+        },
+        {
+            "payee": "CHERRY'S\\s+PHARMACY"
+        },
+        "Rituals Cosmetics",
+        "SABON BROOKLYN",
+        "RITE AID STORE",
+        "HARRY'S",
+        "CO BIGELOW APOTHECARIES",
+        "NORTHSIDE PHARMACY BROOKLYN",
+        "Kiehl's",
+        "RICKY'S",
+        "Aesop Brooklyn NY",
+        "THE MODERN CHEMIST",
+        "APTEKA",
+        "Aesop",
+        "HUDSON SQUARE PHARMACY",
+        "Walgreens",
+        "L'Occitane en Provence",
+        "KINNEY DRUGS"
+    ],
+    "Expenses:Personal Care:Spa & Massage": [
+        "NAIL IT",
+        "DIVA NAIL SALON",
+        "ZEN BEDFORD INK CORP",
+        "PRIMP & POLISH",
+        "LE LABO FRAGRANCES CAFE",
+        "ROSSMANN",
+        "TUTTI NAIL AND SPA BROOKLYN NY"
+    ],
+    "Expenses:Personal Care:Sports": [
+        "IMATHLETE.COM"
+    ],
+    "Expenses:Personal Care:Therapy": [
+        "TALKSPACE"
+    ],
+    "Expenses:Professional Services": [],
+    "Expenses:Professional Services:Accounting": [
+        "SCOTT E HUNZINGE"
+    ],
+    "Expenses:Professional Services:Legal": [],
+    "Expenses:Shopping": [
+        "AMAZON",
+        "JUNK BROOKLYN",
+        "LOCCITANE",
+        "MUJI",
+        "AMZN Mktp US",
+        "FAIRFAX",
+        "ZABKA"
+    ],
+    "Expenses:Shopping:Clothing": [
+        {
+            "payee": "^H&M\\s+"
+        },
+        {
+            "payee": "^HANNA ANDERSSON\\s+"
+        },
+        {
+            "payee": "^J\\.\\s+CREW\\s+"
+        },
+        {
+            "payee": "^J\\s+CREW\\s+"
+        },
+        {
+            "payee": "^LANDS\\s+END\\s+"
+        },
+        {
+            "payee": "^MARSHALLS"
+        },
+        {
+            "payee": "^NORDSTROM\\s+"
+        },
+        {
+            "payee": "^OLD\\s+NAVY"
+        },
+        {
+            "payee": "^UNIQLO\\s+"
+        },
+        {
+            "payee": "^UQ\\s+"
+        },
+        {
+            "payee": "^ZARA\\.COM\\s+"
+        },
+        {
+            "payee": "^ZARA\\s+"
+        },
+        {
+            "payee": "\\s+ZARA\\s+"
+        },
+        {
+            "payee": "ZAPPOS"
+        },
+        {
+            "payee": "^ANN\\s*TAYLOR\\s+LOFT"
+        },
+        {
+            "payee": "^ANTHROPOL"
+        },
+        {
+            "payee": "^BANANA\\s*REPUBLIC\\s+"
+        },
+        {
+            "payee": "^GAP\\s+ONLINE"
+        },
+        {
+            "payee": "^GILT\\s+GROUPE\\s+"
+        },
+        {
+            "payee": "^LLBEAN"
+        },
+        {
+            "payee": "BAGGU\\s+"
+        },
+        {
+            "payee": "TJ\\s+MAXX"
+        },
+        {
+            "payee": "URBAN\\sOUTFITTERS"
+        },
+        {
+            "payee": "^POTTERY\\s+BARN\\s+KIDS"
+        },
+        {
+            "payee": "^MODELL"
+        },
+        "LE GRAND STRIP",
+        "CAPEZIO",
+        "Zara",
+        "MADEWELL",
+        "ON STAGE DANCE WEAR",
+        "MACY",
+        "TJMAXX",
+        "CHASING FIREFLIES",
+        "GAP US",
+        "CENTURY TWENTY ONE",
+        "DNA FOOTWEAR",
+        "H & M",
+        "BODEN",
+        "SWEET WILLIAM",
+        "Mango",
+        "MIMI FROCKS",
+        "FLYING SQUIRREL",
+        "ZULILY",
+        "TASK BROOKLYN",
+        "OOCHIE BABY",
+        "COS STORES",
+        "THELANDOFNOD",
+        "LEVI'S",
+        "LEVIS",
+        "AMERICAN APPAREL",
+        "CROSSROADS TRADING CO",
+        "MANDELA TIBETAN STORE",
+        "FOREVER 21",
+        "TIP TOP KIDS",
+        "J.Crew",
+        "H&M",
+        "T J MAXX",
+        "LPP RESERVED",
+        "DR. MARTENS NY",
+        "LOFT",
+        "Banana Republic",
+        "BUFFALO EXCHANGE",
+        "VANS",
+        "LANDS END",
+        "EVERLANE",
+        "BLOCH",
+        "AILEY BOUTIQUE",
+        "HM.COM",
+        "COLUMBIA SPORTSWEAR",
+        "Lucky Brand",
+        "SMYK",
+        "Gap",
+        "Nordstrom",
+        "Beacons Closet Inc",
+        "ALAND BROOKLYN NY",
+        "ARBOR VITAE VINTAGE",
+        "NIKE.COM",
+        {
+            "payee": "STITCH\\ FIX\\,\\ INC\\."
+        },
+        "PULL & BEAR Bonarka",
+        "Lululemon",
+        "WWW.SHEIN.COM",
+        "BEST MADE CO",
+        "Victoria's Secret",
+        "BLUNDSTONE",
+        "SFXSTYLING",
+        "HANES.COM",
+        "WWW.ROMWE.COM",
+        "SUPER SHOE STORE",
+        "EMS 6013",
+        "H AND M",
+        "PULL & BEAR GALERIA",
+        "reserved.com",
+        "BERSHKA GALERIA",
+        "UNITED COLORS",
+        "BERSHKA",
+        "LPP CROPP",
+        "PULL & BEAR",
+        "BENETTON",
+        "URBAN OUTFITRS",
+        {
+            "payee": "WWW\\.EMS\\.COM"
+        }
+    ],
+    "Expenses:Shopping:Electronics": [
+        "THE PHONE WORKS",
+        "NEWEGG",
+        "APPLE STORE",
+        "B&H PHOTO",
+        "1:46 WATCH REPAIR",
+        "MEDIA MARKT",
+        "ISPOT"
+    ],
+    "Expenses:Shopping:Sporting Goods": [
+        "RIDE BROOKLYN",
+        "AERO TECH DESIGNS",
+        "BEACON CYCLING",
+        "RIVENDELL",
+        "REI"
+    ],
+    "Expenses:Taxes": [],
+    "Expenses:Taxes:Federal Tax": [],
+    "Expenses:Taxes:Local Tax": [],
+    "Expenses:Taxes:Property Tax": [],
+    "Expenses:Taxes:Sales Tax": [],
+    "Expenses:Taxes:State Tax": [],
+    "Expenses:Transportation": [],
+    "Expenses:Transportation:Auto Insurance": [
+        {
+            "payee": "^GEICO\\s+"
+        },
+        "GEICO"
+    ],
+    "Expenses:Transportation:Auto Purchase": [
+        "AMERICAN HONDA FINANCE CORP"
+    ],
+    "Expenses:Transportation:Commuting": [
+        {
+            "payee": "^MTA\\s+MVM"
+        },
+        {
+            "payee": "^MTA\\s+VENDING\\s+MACHINES"
+        },
+        {
+            "payee": "^NYWW\\s+"
+        },
+        "NY WATERWAY",
+        "EAST RIVER FERRY",
+        "NYC FERRY BY HORNBLOWE",
+        "METRO-NORTH",
+        "NYC FERRY",
+        "Metropolitan Transportation Authority",
+        "BIKETOWN",
+        "REVEL",
+        "METROCARD MACHINE",
+        "NYCT PAYGO"
+    ],
+    "Expenses:Transportation:Gas": [
+        "SPEEDWAY",
+        "SUNOCO",
+        "SHELL Service Station",
+        "SHELL OIL",
+        "EXXONMOBIL",
+        "HEWES SS INC",
+        "UNION ISLAND CO BROOKLYN",
+        "KINGS 65 STATIO",
+        "MEEKER PETROLEU",
+        "BP-LAJKONIK",
+        "BP-JAWORNIK",
+        "BP-STRAZNICA",
+        "Shell"
+    ],
+    "Expenses:Transportation:Parking": [
+        "EASTSIDE HOSP PARK",
+        "ELBA OPERATING CORP",
+        "BESTPARKING",
+        "GREENWICH STREET GARAGE",
+        "PARKFAST",
+        "Ggmc Parking Llc",
+        "LINC GARAGE LLC",
+        "EASTERN PARKWAY CAR PAR",
+        "BROOKLYN METRO PARKING",
+        "OCHRE CAR PARK",
+        "MORTON LLC",
+        "PARKWHIZ",
+        "CHAMPION PARKING",
+        "LAZ PARKING",
+        "PARKWIZ LLC"
+    ],
+    "Expenses:Transportation:Repairs": [
+        "NORTH 10TH AUTO CENTER",
+        "MARBREN",
+        "CLASSIC CAR WASH",
+        "ADVANCE AUTO PA",
+        "MAGIC CAR WASH & LUBE",
+        "421 AUTO",
+        "WILLIAMSBURG AUTO CENTER"
+    ],
+    "Expenses:Transportation:Taxi": [
+        "UBER",
+        {
+            "payee": "^NYC LPEP\\s+"
+        },
+        {
+            "payee": "^NYC TAXI\\s+"
+        },
+        {
+            "payee": "^NYC-TAXI\\s+"
+        },
+        {
+            "payee": "^UBER\\s+TECHNOLOGIES"
+        },
+        "ZIPCAR INC",
+        "TAXI SVC",
+        "NORTHSIDE LUXURY",
+        "NORTHSIDE CAR SERVC",
+        "LYFT",
+        "New York City Taxi"
+    ],
+    "Expenses:Transportation:Tolls": [
+        "EZPASS",
+        "E-Z\\*PASSNY"
+    ],
+    "Expenses:Transportation:Violations": [
+        "NYCDOT PARKING METERS",
+        "NYC TOW PARKING",
+        "NYC DEPT OF FINANCE"
+    ],
+    "Expenses:Travel": [],
+    "Expenses:Travel:Air Travel": [
+        "LOT AIRLINE",
+        "DELTA",
+        "GOGOAIR",
+        "LOT WARSZAWA"
+    ],
+    "Expenses:Travel:Hotel": [
+        "BEAR MOUNTAIN LODGING",
+        "Hotel Vintage Plaza",
+        "Holiday Inn",
+        "Airbn",
+        "Airbn",
+        "Airbn",
+        "Airbn",
+        "Airbn",
+        "MOHONK MOUNTAIN HOUSE",
+        "INN OF CAPE MAY",
+        "AIRBNB"
+    ],
+    "Expenses:Travel:Rental Car": [
+        "ENTERPRISE RENT-A-CAR"
+    ],
+    "Expenses:Travel:Vacation": [],
+    "Expenses:Uncategorized": [
+        "VENMO",
+        "B & B DISCOUNT STORE"
+    ],
+    "Expenses:Uncategorized:Check": [
+        "CHECK [0-9]{3,4}"
+    ],
+    "Expenses:Utilities": [],
+    "Expenses:Utilities:Electricity": [
+        {
+            "payee": "CONSOLIDATED EDISON"
+        },
+        "Online Payment [0-9]{10} To Con",
+        "CON ED OF NY"
+    ],
+    "Expenses:Utilities:Home Phone & Internet": [
+        {
+            "payee": "VERIZON"
+        },
+        "PUBLIC ACCESS NETWORK",
+        "Online Payment [0-9]{10} To VER"
+    ],
+    "Expenses:Utilities:Mobile Phone": [
+        {
+            "payee": "T\\s+MOBILE/VOICESTREAM"
+        },
+        "IPHONE",
+        "Online Payment [0-9]{10} To T M",
+        "T-MOBILE",
+        "TRACFONE"
+    ],
+    "Income": [],
+    "Income:Consulting": [
+        "TRANSFER FROM CHK XXXXXX9210"
+    ],
+    "Income:Credits": [
+        "Citi Select & Credit Stmnt",
+        "REFUND CREDIT BALANCE",
+        "TRAVEL CREDIT"
+    ],
+    "Income:Interest": [],
+    "Income:Salary": [
+        {
+            "payee": "^SQUARESPACE\\s+INC\\s+PAYROLL"
+        }
+    ],
+    "Liabilities": [],
+    "Liabilities:Credit Cards": [],
+    "Liabilities:Credit Cards:creditcard-chase-personal-0239": [
+        "CHASE CREDIT CRD AUTOPAY",
+        "Payment to Chase card ending in 0239"
+    ],
+    "Liabilities:Credit Cards:creditcard-citi-business-1275": [],
+    "Liabilities:Credit Cards:creditcard-citi-personal-4217": [
+        {
+            "payee": "To\\ CITIBANK\\ MASTERCARD"
+        }
+    ],
+    "Liabilities:Loans:mortgage-bofa-4424": [
+        {
+            "payee": "BANK\\s+OF\\s+AMERICA\\s+MORTGAGE"
+        },
+        "Online Payment [0-9]{10} To BAN"
+    ]
+}
